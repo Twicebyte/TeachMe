@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TeachMe.exe" version="1.0.1.2" publicKeyToken="75ce45d989447aef" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="if_Doctor_Strange_201246.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TeachMe" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="TeachMe.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--Параметры манифеста UAC
+             Если вы хотите изменить уровень контроля учетных записей, замените узел 
+             requestedExecutionLevel на один из следующих.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            При указании элемента requestedExecutionLevel будет отключена виртуализация файлов и реестра. 
+            Удалите этот элемент, если виртуализация требуется приложению для обратной
+            совместимости.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.dll" size="192512">
+      <assemblyIdentity name="CefSharp" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v7Aos4bw7wRa+IGnd3GO7oi8F9Xk5uA6+H9SxVd1GTI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.Core.dll" size="1684480">
+      <assemblyIdentity name="CefSharp.Core" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VdkLnXltmPcrY9uUkOYhlPofMms0CpXQevqHbLcS+uc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.WinForms.dll" size="28160">
+      <assemblyIdentity name="CefSharp.WinForms" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>m4WksL5+B1L0v/yUiZqwJY66uiNIlGrWrqluAMuF444=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TeachMe.exe" size="895456">
+      <assemblyIdentity name="TeachMe" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0555Dl4XSNqGgukRhKDD5Qnl5Ahp5LAJlM5Qwg8R5x0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="if_Doctor_Strange_201246.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DH/r5JYDbSkkhgxS6jB9H8k1fAxZBgdO340N6DRt2T8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TeachMe.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Список версий Windows, на которых это приложение было протестировано
+ и будет           работать. Раскомментируйте соответствующие элементы, чтобы ОС Windows 
+           автоматически выбрала наиболее совместимое окружение. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-2NT9K8P\twice" issuerKeyHash="c7007f414f273462b458e85c9800dc8a26e2f697" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cdf/wCzF6Ul0UUCV6+0xfgPXqxL6OIaCLpQQ/taPg7k=</DigestValue></Reference></SignedInfo><SignatureValue>KX6ev5qsavNdUvJQWZBZG7L9sJyEl/yCde3hsOaodk+ycPpl+ryV9Ef/fVRABzaYAiW90g/Jtyks2aC+GmNWtFOcX8OFijNqkqFBNU3IB50E5ETbPhuBfZIoS0X5yC2JBezCnpd4dVIzdrKiCDk6cmJsXa/nIp7iwGaJF2Qtlh4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wwhC0p70bbBNOVFOsHlbQQwhdOFErPuWA63SPmLlybAZ8+NsLAVh8R1qATTVBlZBtLA7SSTuyPJdko7gS18I+gvj89VJ6kmASo1iJe4Xoor+yVhgoON3M+CK7ZpKSG8sybRocII6uDKOB+VBAMi6Lm5QbBzF8BZw6/z2PwAVdVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b9838fd6fe10942e828638fa12abd7037e31edeb9540517449e9c52cc0ffd771" Description="" Url=""><as:assemblyIdentity name="TeachMe.exe" version="1.0.1.2" publicKeyToken="75ce45d989447aef" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2NT9K8P\twice</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RipBSKE/vnLpneHeX+UZDMoAXi2w++KdsmfjJuycX9U=</DigestValue></Reference></SignedInfo><SignatureValue>wSJH5Z7OzchBbCZZv2yq6g2vzqO5G9xOdrJsIOBpI/FnIi1kzf0Xbmemq6IMLa5E7PTQGmEp/edH65Jjrss2DhNr4+0hFI4jr9Y80sBxrQF3G2ot70FvMOTlXrZ15Z3VMMHKK9zD6mjdTiYvN+YAzRm9zfVerxk4/njZzARxieQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wwhC0p70bbBNOVFOsHlbQQwhdOFErPuWA63SPmLlybAZ8+NsLAVh8R1qATTVBlZBtLA7SSTuyPJdko7gS18I+gvj89VJ6kmASo1iJe4Xoor+yVhgoON3M+CK7ZpKSG8sybRocII6uDKOB+VBAMi6Lm5QbBzF8BZw6/z2PwAVdVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQNqhjcIGv8rpHBYkYxcOrajANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIATgBUADkASwA4AFAAXAB0AHcAaQBjAGUwHhcNMTgwMzIzMDUwNzQ3WhcNMTkwMzIzMTEwNzQ3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIATgBUADkASwA4AFAAXAB0AHcAaQBjAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMMIQtKe9G2wTTlRTrB5W0EMIXThRKz7lgOt0j5i5cmwGfPjbCwFYfEdagE01QZWQbSwO0kk7sjyXZKO4EtfCPoL4/PVSepJgEqNYiXuF6KK/slYYKDjdzPgiu2aSkhvLMm0aHCCOrgyjgflQQDIui5uUGwcxfAWcOv89j8AFXVXAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARPZi8das3Z3WMi+hKdh83U48UPaOltDRv+PRJTkdCWS4IXDeG61JmRRXl9OeA5aNkdiaFfarjwkdNtnjXNxKWYPBdM53MPCCYS4xKQsKAM1UZ+pKYcTDnAtX1fMLNk/UcNXyW6hqLB+aSVAON3YAOQGslmaNDKB71jMtSqKA3hU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

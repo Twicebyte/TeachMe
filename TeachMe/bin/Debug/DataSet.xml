@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<DataSet xmlns="http://tempuri.org/DataSet.xsd">
+  <User>
+    <id>0</id>
+    <firstName>Иннокентий</firstName>
+    <secondName>Дмитриевич</secondName>
+    <lastName>Третьяков</lastName>
+    <password>kbnjuhfabz1298</password>
+  </User>
+</DataSet>

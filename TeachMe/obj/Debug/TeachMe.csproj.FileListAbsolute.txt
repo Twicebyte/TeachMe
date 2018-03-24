@@ -1,0 +1,16 @@
+C:\Users\twice\source\repos\TeachMe\TeachMe\bin\Debug\TeachMe.exe.config
+C:\Users\twice\source\repos\TeachMe\TeachMe\bin\Debug\TeachMe.exe
+C:\Users\twice\source\repos\TeachMe\TeachMe\bin\Debug\TeachMe.pdb
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.csprojResolveAssemblyReference.cache
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.Properties.Resources.resources
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.csproj.GenerateResource.Cache
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.csproj.CoreCompileInputs.cache
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.exe
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.pdb
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.SignInForm.resources
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.StudentHub.resources
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\twice\source\repos\TeachMe\TeachMe\obj\Debug\TeachMe.csproj.ResolveComReference.cache
+C:\Users\twice\source\repos\TeachMe\TeachMe\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\twice\source\repos\TeachMe\TeachMe\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
